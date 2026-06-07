@@ -4,9 +4,9 @@
 <p><strong>AI-powered Career Operating System for students and job seekers</strong></p>
 
 <p>
-  <a href="https://github.com/career-os/careeros-web/stargazers"><img src="https://img.shields.io/github/stars/career-os/careeros-web?style=flat-square&color=1A56DB" alt="Stars"></a>
-  <a href="https://github.com/career-os/careeros-web/issues"><img src="https://img.shields.io/github/issues/career-os/careeros-web?style=flat-square&color=1A56DB" alt="Issues"></a>
-  <a href="https://github.com/career-os/careeros-web/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"></a>
+  <a href="https://github.com/Careers-Os/careeros-web/stargazers"><img src="https://img.shields.io/github/stars/career-os/careeros-web?style=flat-square&color=1A56DB" alt="Stars"></a>
+  <a href="https://github.com/Careers-Os/careeros-web/issues"><img src="https://img.shields.io/github/issues/career-os/careeros-web?style=flat-square&color=1A56DB" alt="Issues"></a>
+  <a href="https://github.com/Careers-Os/careeros-web/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square" alt="Contributing"></a>
 </p>
 
@@ -73,7 +73,7 @@ everything lives in one intelligent system that knows your resume, your target r
               └─────────────────┘
 ```
 
-📖 Full architecture details → [careeros-docs](https://github.com/career-os/careeros-docs)
+📖 Full architecture details → [careeros-docs](https://github.com/Careers-Os/careeros-docs)
 
 ---
 
@@ -99,13 +99,13 @@ everything lives in one intelligent system that knows your resume, your target r
 ### Prerequisites
 - Node.js 18+
 - npm or yarn
-- careeros-api running locally (see [careeros-api setup](https://github.com/career-os/careeros-api#getting-started))
+- careeros-api running locally (see [careeros-api setup](https://github.com/Careers-Os/careeros-api#getting-started))
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/career-os/careeros-web.git
+git clone https://github.com/Careers-Os/careeros-web.git
 cd careeros-web
 
 # Install dependencies
@@ -170,8 +170,8 @@ We welcome contributions! CareerOS is open-source and community-driven.
 | ATS score visualization component | `frontend` | Intermediate |
 
 👉 See [CONTRIBUTING.md](CONTRIBUTING.md) for full setup guide  
-👉 See [all open issues](https://github.com/career-os/careeros-web/issues)  
-👉 Join discussions on [GitHub Discussions](https://github.com/career-os/careeros-web/discussions)
+👉 See [all open issues](https://github.com/Careers-Os/careeros-web/issues)  
+👉 Join discussions on [GitHub Discussions](https://github.com/Careers-Os/careeros-web/discussions)
 
 ---
 
@@ -182,7 +182,7 @@ We welcome contributions! CareerOS is open-source and community-driven.
 - [ ] **Phase 2** — Recruiter Simulator, AI Interview Coach, Skill Gap *(Week 5–10)*
 - [ ] **Phase 3** — Learning Roadmap, LinkedIn Optimizer, Chrome Extension *(Week 11–16)*
 
-Full roadmap → [careeros-docs/roadmap.md](https://github.com/career-os/careeros-docs)
+Full roadmap → [careeros-docs/roadmap.md](https://github.com/Careers-Os/careeros-docs)
 
 ---
 
@@ -193,10 +193,10 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-  <p>Built with ❤️ by <a href="https://github.com/vikashkumar">Vikash Gautam</a> and contributors</p>
+  <p>Built with ❤️ by <a href="https://github.com/vikash1311">Vikash Gautam</a> and contributors</p>
   <p>
-    <a href="https://github.com/career-os/careeros-api">careeros-api</a> •
-    <a href="https://github.com/career-os/careeros-ai">careeros-ai</a> •
-    <a href="https://github.com/career-os/careeros-docs">careeros-docs</a>
+    <a href="https://github.com/Careers-Os/careeros-api">careeros-api</a> •
+    <a href="https://github.com/Careers-Os/careeros-ai">careeros-ai</a> •
+    <a href="https://github.com/Careers-Os/careeros-docs">careeros-docs</a>
   </p>
 </div>
