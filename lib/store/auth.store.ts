@@ -1,23 +1,44 @@
-import { create } from "zustand";
-import { persist } from "zustand/middleware";
+/**
+ * FE-001 — Auth Zustand store
+ * Persists tokens to localStorage, exposes user state globally
+ */
 
-interface User { id: string; name: string; email: string; }
+import { create } from 'zustand'
+import { persist } from 'zustand/middleware'
+import type { UserResponse } from '@/lib/api/auth'
 
-interface AuthStore {
-  user: User | null;
-  accessToken: string | null;
-  isAuthenticated: boolean;
-  setAuth: (user: User, token: string) => void;
-  clearAuth: () => void;
+interface AuthState {
+  accessToken: string | null
+  refreshToken: string | null
+  user: UserResponse | null
+  isAuthenticated: boolean
+  setAuth: (accessToken: string, refreshToken: string, user: UserResponse) => void
+  clearAuth: () => void
 }
 
-export const useAuthStore = create<AuthStore>()(
+export const useAuthStore = create<AuthState>()(
   persist(
     (set) => ({
-      user: null, accessToken: null, isAuthenticated: false,
-      setAuth: (user, accessToken) => set({ user, accessToken, isAuthenticated: true }),
-      clearAuth: () => set({ user: null, accessToken: null, isAuthenticated: false }),
+      accessToken: null,
+      refreshToken: null,
+      user: null,
+      isAuthenticated: false,
+
+      setAuth: (accessToken, refreshToken, user) =>
+        set({ accessToken, refreshToken, user, isAuthenticated: true }),
+
+      clearAuth: () =>
+        set({ accessToken: null, refreshToken: null, user: null, isAuthenticated: false }),
     }),
-    { name: "careeros-auth" }
+    {
+      name: 'careeros-auth',
+      // Only persist tokens and user — not functions
+      partialize: (state) => ({
+        accessToken: state.accessToken,
+        refreshToken: state.refreshToken,
+        user: state.user,
+        isAuthenticated: state.isAuthenticated,
+      }),
+    }
   )
-);
+)
