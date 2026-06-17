@@ -48,7 +48,7 @@ export default function LoginPage() {
         {/* Wordmark */}
         <div className="mb-10 text-center">
           <span className="text-2xl font-bold tracking-tight text-white">
-            Careers<span className="text-[#22D3EE]">OS</span>
+            Careers<span className="text-[#22D3EE]">_OS</span>
           </span>
           <p className="mt-2 text-sm text-slate-400">Your AI career operating system</p>
         </div>
@@ -88,7 +88,7 @@ export default function LoginPage() {
                 <label className="block text-xs font-medium text-slate-400 uppercase tracking-wider">
                   Password
                 </label>
-                <Link href="/forgot-password" className="text-xs text-[#22D3EE] hover:text-[#67E8F9] transition">
+                <Link href={"/forgot-password" as any} className="text-xs text-[#22D3EE] hover:text-[#67E8F9] transition">
                   Forgot password?
                 </Link>
               </div>
