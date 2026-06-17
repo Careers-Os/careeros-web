@@ -40,3 +40,18 @@
   * { @apply border-border; }
   body { @apply bg-background text-foreground; }
 }
+
+/* Add this to the bottom of app/globals.css */
+
+@keyframes trace {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+.animate-trace {
+  animation: trace 2.5s ease-in-out infinite;
+}

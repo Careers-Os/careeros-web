@@ -1,12 +1,12 @@
 <div align="center">
 
-<h1>🚀 CareerOS — Web App</h1>
+<h1>🚀 Careers_OS — Web App</h1>
 <p><strong>AI-powered Career Operating System for students and job seekers</strong></p>
 
 <p>
-  <a href="https://github.com/Careers-Os/careeros-web/stargazers"><img src="https://img.shields.io/github/stars/career-os/careeros-web?style=flat-square&color=1A56DB" alt="Stars"></a>
-  <a href="https://github.com/Careers-Os/careeros-web/issues"><img src="https://img.shields.io/github/issues/career-os/careeros-web?style=flat-square&color=1A56DB" alt="Issues"></a>
-  <a href="https://github.com/Careers-Os/careeros-web/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"></a>
+  <a href="https://github.com/Careers-Os/Careers_OS-web/stargazers"><img src="https://img.shields.io/github/stars/career-os/Careers_OS-web?style=flat-square&color=1A56DB" alt="Stars"></a>
+  <a href="https://github.com/Careers-Os/Careers_OS-web/issues"><img src="https://img.shields.io/github/issues/career-os/Careers_OS-web?style=flat-square&color=1A56DB" alt="Issues"></a>
+  <a href="https://github.com/Careers-Os/Careers_OS-web/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square" alt="Contributing"></a>
 </p>
 
@@ -22,9 +22,9 @@
 
 ---
 
-## 🧠 What is CareerOS?
+## 🧠 What is Careers_OS?
 
-CareerOS is an open-source AI platform that replaces the 5–8 disconnected tools job seekers currently juggle.
+Careers_OS is an open-source AI platform that replaces the 5–8 disconnected tools job seekers currently juggle.
 Instead of switching between ATS checkers, mock interview platforms, job trackers, and LinkedIn tools —
 everything lives in one intelligent system that knows your resume, your target role, and your progress.
 
@@ -73,7 +73,7 @@ everything lives in one intelligent system that knows your resume, your target r
               └─────────────────┘
 ```
 
-📖 Full architecture details → [careeros-docs](https://github.com/Careers-Os/careeros-docs)
+📖 Full architecture details → [Careers_OS-docs](https://github.com/Careers-Os/Careers_OS-docs)
 
 ---
 
@@ -89,8 +89,8 @@ everything lives in one intelligent system that knows your resume, your target r
 - [Recharts](https://recharts.org/) — analytics
 
 **Connects to**
-- [careeros-api](https://github.com/career-os/careeros-api) — Spring Boot backend
-- [careeros-ai](https://github.com/career-os/careeros-ai) — LangGraph AI agents
+- [Careers_OS-api](https://github.com/career-os/Careers_OS-api) — Spring Boot backend
+- [Careers_OS-ai](https://github.com/career-os/Careers_OS-ai) — LangGraph AI agents
 
 ---
 
@@ -99,14 +99,14 @@ everything lives in one intelligent system that knows your resume, your target r
 ### Prerequisites
 - Node.js 18+
 - npm or yarn
-- careeros-api running locally (see [careeros-api setup](https://github.com/Careers-Os/careeros-api#getting-started))
+- Careers_OS-api running locally (see [Careers_OS-api setup](https://github.com/Careers-Os/Careers_OS-api#getting-started))
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/Careers-Os/careeros-web.git
-cd careeros-web
+git clone https://github.com/Careers-Os/Careers_OS-web.git
+cd Careers_OS-web
 
 # Install dependencies
 npm install
@@ -124,7 +124,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8080
-NEXT_PUBLIC_APP_NAME=CareerOS
+NEXT_PUBLIC_APP_NAME=Careers_OS
 ```
 
 ---
@@ -132,7 +132,7 @@ NEXT_PUBLIC_APP_NAME=CareerOS
 ## 📁 Project Structure
 
 ```
-careeros-web/
+Careers_OS-web/
 ├── app/                    # Next.js App Router pages
 │   ├── (auth)/             # Login, register
 │   ├── dashboard/          # Main dashboard
@@ -158,7 +158,7 @@ careeros-web/
 
 ## 🤝 Contributing
 
-We welcome contributions! CareerOS is open-source and community-driven.
+We welcome contributions! Careers_OS is open-source and community-driven.
 
 **Good first issues for new contributors:**
 
@@ -170,8 +170,8 @@ We welcome contributions! CareerOS is open-source and community-driven.
 | ATS score visualization component | `frontend` | Intermediate |
 
 👉 See [CONTRIBUTING.md](CONTRIBUTING.md) for full setup guide  
-👉 See [all open issues](https://github.com/Careers-Os/careeros-web/issues)  
-👉 Join discussions on [GitHub Discussions](https://github.com/Careers-Os/careeros-web/discussions)
+👉 See [all open issues](https://github.com/Careers-Os/Careers_OS-web/issues)  
+👉 Join discussions on [GitHub Discussions](https://github.com/Careers-Os/Careers_OS-web/discussions)
 
 ---
 
@@ -182,7 +182,7 @@ We welcome contributions! CareerOS is open-source and community-driven.
 - [ ] **Phase 2** — Recruiter Simulator, AI Interview Coach, Skill Gap *(Week 5–10)*
 - [ ] **Phase 3** — Learning Roadmap, LinkedIn Optimizer, Chrome Extension *(Week 11–16)*
 
-Full roadmap → [careeros-docs/roadmap.md](https://github.com/Careers-Os/careeros-docs)
+Full roadmap → [Careers_OS-docs/roadmap.md](https://github.com/Careers-Os/Careers_OS-docs)
 
 ---
 
@@ -195,8 +195,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 <div align="center">
   <p>Built with ❤️ by <a href="https://github.com/vikash1311">Vikash Gautam</a> and contributors</p>
   <p>
-    <a href="https://github.com/Careers-Os/careeros-api">careeros-api</a> •
-    <a href="https://github.com/Careers-Os/careeros-ai">careeros-ai</a> •
-    <a href="https://github.com/Careers-Os/careeros-docs">careeros-docs</a>
+    <a href="https://github.com/Careers-Os/Careers_OS-api">Careers_OS-api</a> •
+    <a href="https://github.com/Careers-Os/Careers_OS-ai">Careers_OS-ai</a> •
+    <a href="https://github.com/Careers-Os/Careers_OS-docs">Careers_OS-docs</a>
   </p>
 </div>

@@ -1,6 +1,6 @@
-# Contributing to CareerOS
+# Contributing to Careers_OS
 
-Thank you for your interest in contributing to CareerOS! 🎉
+Thank you for your interest in contributing to Careers_OS! 🎉
 
 This project is open-source and community-driven. Whether you're a frontend developer, backend engineer, AI enthusiast, or designer — there's a place for you here.
 
@@ -8,7 +8,7 @@ This project is open-source and community-driven. Whether you're a frontend deve
 
 ## 📋 Before You Start
 
-1. **Read the docs** → [careeros-docs](https://github.com/Careers-Os/careeros-docs) — understand the system architecture and roadmap
+1. **Read the docs** → [Careers_OS-docs](https://github.com/Careers-Os/Careers_OS-docs) — understand the system architecture and roadmap
 2. **Find an issue** → Filter by `good-first-issue` if you're new
 3. **Comment on the issue** → Say "I'd like to work on this" before starting — avoids duplicate work
 4. **Wait for assignment** → A maintainer will assign it to you within 24–48 hours
@@ -17,27 +17,27 @@ This project is open-source and community-driven. Whether you're a frontend deve
 
 ## 🛠️ Development Setup
 
-### Frontend (careeros-web)
+### Frontend (Careers_OS-web)
 ```bash
-git clone https://github.com/Careers-Os/careeros-web.git
-cd careeros-web
+git clone https://github.com/Careers-Os/Careers_OS-web.git
+cd Careers_OS-web
 npm install
 cp .env.example .env.local
 npm run dev
 ```
 
-### Backend (careeros-api)
+### Backend (Careers_OS-api)
 ```bash
-git clone https://github.com/Careers-Os/careeros-api.git
-cd careeros-api
+git clone https://github.com/Careers-Os/Careers_OS-api.git
+cd Careers_OS-api
 docker-compose up -d        # starts PostgreSQL, Redis, RabbitMQ
 ./mvnw spring-boot:run
 ```
 
-### AI Service (careeros-ai)
+### AI Service (Careers_OS-ai)
 ```bash
-git clone https://github.com/Careers-Os/careeros-ai.git
-cd careeros-ai
+git clone https://github.com/Careers-Os/Careers_OS-ai.git
+cd Careers_OS-ai
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
@@ -118,4 +118,4 @@ All contributors are credited in:
 
 ## ❓ Questions?
 
-Not sure where to start? Open a [GitHub Discussion](https://github.com/Carees-Os/careeros-web/discussions) and ask. We're happy to help you find the right issue for your skill level.
+Not sure where to start? Open a [GitHub Discussion](https://github.com/Carees-Os/Careers_OS-web/discussions) and ask. We're happy to help you find the right issue for your skill level.

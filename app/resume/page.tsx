@@ -1,5 +1,5 @@
 // TODO: FE-003 — Resume upload drag-and-drop component
-// Issue: github.com/career-os/careeros-web/issues/3
+// Issue: github.com/career-os/Careers_OS-web/issues/3
 export default function ResumePage() {
   return (
     <div className="p-8">

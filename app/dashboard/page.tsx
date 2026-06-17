@@ -1,5 +1,5 @@
 // TODO: FE-002 — Build dashboard layout with sidebar
-// Issue: github.com/career-os/careeros-web/issues/2
+// Issue: github.com/career-os/Careers_OS-web/issues/2
 export default function DashboardPage() {
   return (
     <div className="p-8">

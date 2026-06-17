@@ -1,4 +1,4 @@
-name: CareerOS Web — CI
+name: Careers_OS Web — CI
 
 on:
   push:
@@ -33,12 +33,12 @@ jobs:
       - name: Build
         env:
           NEXT_PUBLIC_API_URL: http://localhost:8080
-          NEXT_PUBLIC_APP_NAME: CareerOS
+          NEXT_PUBLIC_APP_NAME: Careers_OS
         run: npm run build
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: careeros-web-build
+          name: Careers_OS-web-build
           path: .next/
           retention-days: 7

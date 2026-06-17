@@ -31,7 +31,7 @@ export const useAuthStore = create<AuthState>()(
         set({ accessToken: null, refreshToken: null, user: null, isAuthenticated: false }),
     }),
     {
-      name: 'careeros-auth',
+      name: 'Careers_OS-auth',
       // Only persist tokens and user — not functions
       partialize: (state) => ({
         accessToken: state.accessToken,

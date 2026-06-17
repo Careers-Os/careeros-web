@@ -1,6 +1,6 @@
 /**
  * FE-001 — Auth API client
- * Connects to careeros-api /api/auth/* endpoints
+ * Connects to Careers_OS-api /api/auth/* endpoints
  */
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080'

@@ -35,8 +35,8 @@ declare namespace __next_route_internal_types__ {
     | `/dashboard`
     | `/interview`
     | `/resume`
-    | `/tracker`
     | `/roadmap`
+    | `/tracker`
   type DynamicRoutes<T extends string = string> = never
 
   type RouteImpl<T> = 

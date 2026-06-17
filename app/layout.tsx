@@ -6,7 +6,7 @@ import { Providers } from "@/components/shared/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CareerOS — AI Career Operating System",
+  title: "Careers_OS — AI Career Operating System",
   description: "One platform to analyze your resume, simulate recruiters, practice interviews, and track your job search.",
 };
 
