@@ -48,7 +48,7 @@ export default function LoginPage() {
         {/* Wordmark */}
         <div className="mb-10 text-center">
           <span className="text-2xl font-bold tracking-tight text-white">
-            Careers<span className="text-[#22D3EE]">_OS</span>
+            Careers<span className="text-[#22D3EE]">OS</span>
           </span>
           <p className="mt-2 text-sm text-slate-400">Your AI career operating system</p>
         </div>
