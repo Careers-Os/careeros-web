@@ -1,16 +1,11 @@
-'use client'
+﻿'use client'
 
+import { Suspense } from 'react'
 import { useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useAuthStore } from '@/lib/store/auth.store'
 
-/**
- * OAuth callback page (/auth/callback)
- * Picks up accessToken + refreshToken from URL params
- * after the API route completes the OAuth exchange,
- * stores them in Zustand, then redirects to dashboard.
- */
-export default function OAuthCallbackPage() {
+function OAuthCallbackInner() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const { setAuth } = useAuthStore()
@@ -21,11 +16,10 @@ export default function OAuthCallbackPage() {
     const error = searchParams.get('error')
 
     if (error || !accessToken || !refreshToken) {
-      router.replace('/login?error=' + (error || 'oauth_failed') as any)
+      router.replace(('/login?error=' + (error || 'oauth_failed')) as any)
       return
     }
 
-    // Decode user info from JWT payload (base64)
     try {
       const payload = JSON.parse(atob(accessToken.split('.')[1]))
       const user = {
@@ -53,5 +47,20 @@ export default function OAuthCallbackPage() {
         <p className="mt-4 text-sm text-slate-400">Completing sign in...</p>
       </div>
     </div>
+  )
+}
+
+export default function OAuthCallbackPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-[#070B14] flex items-center justify-center">
+        <svg className="h-8 w-8 animate-spin text-[#22D3EE]" fill="none" viewBox="0 0 24 24">
+          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
+        </svg>
+      </div>
+    }>
+      <OAuthCallbackInner />
+    </Suspense>
   )
 }
