@@ -1,5 +1,6 @@
 {
-  "/dashboard/page": "app/dashboard/page.js",
+  "/api/auth/callback/route": "app/api/auth/callback/route.js",
+  "/api/auth/linkedin/route": "app/api/auth/linkedin/route.js",
   "/(auth)/login/page": "app/(auth)/login/page.js",
   "/(auth)/register/page": "app/(auth)/register/page.js"
 }

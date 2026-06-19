@@ -21,7 +21,7 @@ export default function OAuthCallbackPage() {
     const error = searchParams.get('error')
 
     if (error || !accessToken || !refreshToken) {
-      router.replace('/login?error=' + (error || 'oauth_failed'))
+      router.replace('/login?error=' + (error || 'oauth_failed') as any)
       return
     }
 
@@ -37,9 +37,9 @@ export default function OAuthCallbackPage() {
         experienceLevel: null,
       }
       setAuth(accessToken, refreshToken, user)
-      router.replace('/dashboard')
+      router.replace('/dashboard' as any)
     } catch {
-      router.replace('/login?error=token_parse_failed')
+      router.replace('/login?error=token_parse_failed' as any)
     }
   }, [searchParams, setAuth, router])
 

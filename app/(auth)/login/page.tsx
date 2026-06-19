@@ -91,8 +91,12 @@ export default function LoginPage() {
 
       <div className="w-full max-w-md relative z-10">
         {/* Logo */}
-        <div className="mb-8 flex justify-center">
-          <Image src="/logo.png" alt="CareerOS" width={180} height={60} className="h-14 w-auto" priority />
+{/* Logo */}
+        <div className="mb-8 text-center">
+          <span className="text-2xl font-bold tracking-tight text-white">
+            Career<span className="text-[#22D3EE]">OS</span>
+          </span>
+          <p className="mt-2 text-sm text-slate-400">Your AI career operating system</p>
         </div>
 
         {/* Card */}
