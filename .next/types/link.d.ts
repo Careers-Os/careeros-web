@@ -31,17 +31,18 @@ declare namespace __next_route_internal_types__ {
   type StaticRoutes = 
     | `/`
     | `/callback`
-    | `/login`
     | `/register`
+    | `/login`
+    | `/dashboard`
+    | `/resume`
+    | `/roadmap`
+    | `/interview`
+    | `/tracker`
+    | `/settings`
     | `/api/auth/callback`
     | `/api/auth/github`
     | `/api/auth/google`
     | `/api/auth/linkedin`
-    | `/dashboard`
-    | `/interview`
-    | `/resume`
-    | `/roadmap`
-    | `/tracker`
   type DynamicRoutes<T extends string = string> = never
 
   type RouteImpl<T> = 
