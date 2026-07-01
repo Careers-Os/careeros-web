@@ -1,0 +1,39 @@
+[33m41c62c3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeat/fe-004-ats-score-card[m[33m, [m[1;31morigin/feat/fe-004-ats-score-card[m[33m, [m[1;31morigin/feat/fe-003-resume-upload[m[33m, [m[1;32mfeat/fe-003-resume-upload[m[33m)[m feat(resume): add drag-and-drop resume upload component (FE-003)
+[33m46e49b6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m feat: add forgot password and reset password pages (#10)
+[33mfa47542[m[33m ([m[1;31morigin/feature/forgot-reset-password[m[33m)[m chore: remove .next build cache from version control
+[33md7334ff[m fix: resolve merge conflict - exclude .next/ build cache from version control
+[33m9dd9cba[m feat: add forgot password and reset password pages
+[33m158a725[m feat: implement FE-002 dashboard layout with collapsible sidebar (#9)
+[33m5053dca[m[33m ([m[1;31morigin/feature/FE-002-dashboard-layout[m[33m)[m feat: implement FE-002 dashboard layout with collapsible sidebar
+[33m09d7f12[m changes
+[33mb76d9c2[m fix: wrap useSearchParams in Suspense boundary on OAuth callback page
+[33m53df2ef[m fix: cast router.replace paths to satisfy typedRoutes strict check
+[33m671cf16[m hii
+[33me2801a2[m add continue with
+[33ma41f5f6[m login
+[33m6ec96d8[m login chnages
+[33m160d317[m for pw
+[33me8e0833[m auth page new design
+[33mcdc0f1d[m auth page new design
+[33m11d3e16[m auth page new design
+[33mc7923dc[m fix forgot pw
+[33me94d315[m chore: regenerate lock file
+[33m9094b35[m chore: fresh package-lock.json
+[33mf144e71[m chore: sync package-lock.json
+[33m4e167aa[m be001
+[33mc497e24[m fe001
+[33mb9af9b5[m fe001
+[33me5409e3[m chore: update Next.js CI workflow with Node 18 caching and add package-lock.json
+[33mf0a9017[m Update CI workflow to continue on ESLint errors
+[33me2a0d06[m Add ESLint configuration for Next.js project
+[33m2859658[m Update ci.yml
+[33m9295204[m Change npm ci to npm install in CI workflow
+[33m9006663[m Create pull_request_template.md
+[33mde4e72c[m Add CI workflow for CareerOS Web
+[33m0d5592f[m Update README links to use 'Careers-Os' organization
+[33maca514f[m Fix GitHub organization name in CONTRIBUTING.md
+[33mb84867f[m boilerplate of frontend
+[33m37b6d7b[m Create CONTRIBUTING.md for project guidelines
+[33ma88a115[m Add Code of Conduct for community guidelines
+[33m1d8423f[m Update README with project details and guidelines
+[33m521b96d[m Initial commit
