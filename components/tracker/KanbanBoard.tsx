@@ -43,7 +43,7 @@ const MOCK_APPLICATIONS: JobApplication[] = [
     id: "3", user_id: "u1",
     company_name: "Vercel", role_title: "DX Engineer",
     status: "screening", applied_date: "2025-05-28",
-    notes: "Phone screen scheduled June 18.", color: "#f59e0b",
+    notes: "Phonscm-history-item:c%3A%5CUsers%5Cyashs%5Ccareeros-web?%7B%22repositoryId%22%3A%22scm0%22%2C%22historyItemId%22%3A%2292c18ff091b1ede8d1269889e818f6698a09234a%22%2C%22historyItemParentId%22%3A%22515a029dac50010da6b9a885c59defae8c9cc9cc%22%2C%22historyItemDisplayId%22%3A%2292c18ff%22%7De screen scheduled June 18.", color: "#f59e0b",
     created_at: "2025-05-28T00:00:00Z", updated_at: "2025-05-28T00:00:00Z",
   },
   {
